@@ -15,3 +15,5 @@ INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('1','Volvo','Black'
 INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('2','Saab','Blue');
 INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('3','Audi','Red');
 INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('4','Ford','Green');
+
+GRANT SELECT ON sqlandjava.cars TO user@localhost;
