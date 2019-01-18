@@ -10,3 +10,8 @@ CREATE TABLE `sqljava`.`cars`(
 `brand`VARCHAR(45)NOT NULL,
 `color`VARCHAR(45)NOT NULL,
 PRIMARY KEY(`car_id`));
+
+INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('1','Volvo','Black');
+INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('2','Saab','Blue');
+INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('3','Audi','Red');
+INSERT INTO `sqljava`.`cars`(`car_id`,`brand`,`color`)VALUES('4','Ford','Green');
